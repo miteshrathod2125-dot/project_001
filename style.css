@@ -1,0 +1,42 @@
+body{
+font-family: Arial;
+background:#f4f4f4;
+text-align:center;
+}
+
+h1{
+margin-top:20px;
+}
+
+.company-list{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:30px;
+}
+
+.company{
+background:white;
+padding:20px;
+border-radius:10px;
+cursor:pointer;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.company img{
+width:120px;
+}
+
+.details{
+background:white;
+width:60%;
+margin:auto;
+padding:30px;
+border-radius:10px;
+margin-top:40px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.details img{
+width:150px;
+}
